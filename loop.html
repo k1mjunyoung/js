@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Loop</h1>
+    <ul>
+        <script>
+            var cnt = 0;
+            while(cnt<10){
+                document.write('<li>'+cnt+'</li>');
+                cnt++;
+            }
+        </script>
+    </ul>
+    <h2>loop & array</h2>
+    <h2>workers</h2>
+    <script>
+        var workers = ['kim', 'han', 'min'];
+    </script>
+    <ul>
+        <script>
+            var i = 0;
+            while(i < workers.length){
+                document.write('<li>'+workers[i]+'</li>');
+                i++;
+            }
+        </script>
+    </ul>
+</body>
+</html>
